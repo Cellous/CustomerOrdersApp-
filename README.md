@@ -19,4 +19,4 @@ This is a Java console application that connects to a MySQL database to manage c
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/CustomerOrdersApp.git
+   git clone https://github.com/Cellous/CustomerOrdersApp.git
