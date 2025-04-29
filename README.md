@@ -20,3 +20,13 @@ This is a Java console application that connects to a MySQL database to manage c
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Cellous/CustomerOrdersApp.git
+
+## Setup
+
+### 1. Configure MySQL Connection
+In `CustomerOrdersApp.java`, update the following lines with your MySQL credentials:
+
+```java
+static final String URL = "jdbc:mysql://localhost:3306/customer_orders_db";
+static final String USER = "root";
+static final String PASSWORD = "devry123";
