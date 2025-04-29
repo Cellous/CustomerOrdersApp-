@@ -29,4 +29,20 @@ In `CustomerOrdersApp.java`, update the following lines with your MySQL credenti
 ```java
 static final String URL = "jdbc:mysql://localhost:3306/customer_orders_db";
 static final String USER = "root";
+
+## Sample Data
+
+This project includes a sample SQL script to populate the `orders` table with 15 test orders.
+
+### How to Import Test Data
+
+1. Make sure your MySQL server is running.
+2. Ensure your `customer_orders_db` database and `orders` table exist.
+3. From your project folder (where `test_orders_insert.sql` is located), run the following command:
+
+```bash
+mysql -u root -p customer_orders_db < test_orders_insert.sql
+
 static final String PASSWORD = "devry123";
+
+
